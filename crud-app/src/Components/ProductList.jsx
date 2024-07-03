@@ -61,7 +61,7 @@ const ProductList = () => {
       setProducts(
         products.map((product) => (product.id === id ? updatedData : product))
       );
-      setEditingProduct(null); // Reset the editing product after update
+      setEditingProduct(null);
     } catch (error) {
       console.error("Error updating product:", error);
     }
