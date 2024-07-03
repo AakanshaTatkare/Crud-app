@@ -13,7 +13,6 @@ const ProductForm = ({ onUpdate, product, onCancelEdit }) => {
         title: product.title,
         description: product.description,
         price: product.price,
-        // Add other necessary fields here
       });
     }
   }, [product]);
@@ -58,7 +57,6 @@ const ProductForm = ({ onUpdate, product, onCancelEdit }) => {
           onChange={handleChange}
         />
       </div>
-      {/* Add other necessary fields here */}
       <button type="submit" className="btn btn-primary">
         Save
       </button>
